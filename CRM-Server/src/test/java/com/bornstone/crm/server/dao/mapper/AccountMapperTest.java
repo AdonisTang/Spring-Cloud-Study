@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.springframework.test.util.AssertionErrors.assertEquals;
 
 @RunWith(SpringRunner.class)
-@MybatisTest()
+@MybatisTest
 public class AccountMapperTest {
 
     @Autowired
